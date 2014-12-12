@@ -1,4 +1,4 @@
-import picamera,time
+import picamera,time,json
 
 def getPicture(filename=""):
     picFine = True
@@ -139,3 +139,20 @@ def getCharProfile():
             glassesFine = True
         else:
             glassesFine = False
+    global profile
+    profile = [name, hairColour, hat, eyeColour, gender, facialHair, glasses, name+".jpg"]
+    
+def saveProfile():
+    getCharProfile()
+    profiles.append(profile)
+    with open("profiles.txt",mode="w") as p:
+        json.dump(profiles,p)
+def loadProfile():
+    try:
+        with open("profiles.txt",mode="r") as p:
+            profiles = json.load(p)
+    except IOError:
+        print("profiles.txt not found. Creating a new profile")
+        global profiles
+        profiles=[]
+        saveProfile()
