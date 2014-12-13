@@ -5,7 +5,7 @@ def getPicture(filename=""):
     while picFine == True:
         if filename == "":
             picFine = True
-            filename = input("Please give a valid filename").lower
+            filename = input("Please give a valid filename").lower()
         else: 
             picFine = False
     while picFine != True:
