@@ -1,5 +1,5 @@
 #sos flasher by James Gooding
-import RPi.GPIO as GPIO,time
+import RPi.GPIO as GPIO,time #Imports the time and RPI.GPIO module. Shortens RPI.GPIO to GPIO
 def setup():
 	GPIO.setmode(GPIO.BOARD) #Set the pin numbering system
 	GPIO.setup(11,GPIO.OUT)
@@ -241,7 +241,7 @@ def letterToMorse(y):
 	else:
 		wordEnd()
 
-letter  = input("What word do you want to translate to morse?")
+letter  = input("What word do you want to translate to morse?") #Asks the user for a word
 
 for each in letter.lower():
-	letterToMorse(each)	
+	letterToMorse(each) #Outputs the variable letter in morse code
