@@ -13,3 +13,5 @@ while picFine != True:
         picFine = True
     else:
         picFine = False
+
+#SEE piCamTimelapse.py FOR COMMENTED VERSION
