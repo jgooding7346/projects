@@ -1,4 +1,4 @@
-#SEE minecraftTeleportProgram.py FOR THE COMPLETE AND COMMENTED VERSION
+#SEE minecraftTeleport.py FOR THE COMPLETE AND COMMENTED VERSION
 import time,mcpi.minecraft as minecraft
 mc = minecraft.Minecraft.create()
 time.sleep(3)
