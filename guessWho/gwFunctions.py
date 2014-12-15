@@ -21,8 +21,9 @@ def getPicture(filename=""):
             picFineInput = input("Is this ok? ").lower()
             if picFineInput == "yes" or picFineInput == "y":
                 picFine = True
-            else:
+            elif picFineInput == "no" and picFineInput == "n":
                 picFine = False
+        
         except picamera.exc.PiCameraError:
             print("There is a problem with the camera, please check it is connected")
             fileName = ""
@@ -48,7 +49,12 @@ def getCharProfile():
 
     #PICTURE
     getPicture(name)
-
+    while picFine != True:
+        if picFineInput == "yes" or picFineInput == "y":
+            picFine = True
+        elif picFineInput == "no" or picFineInput == "n":
+            picFine = False
+            
     #HAIR COLOUR
     while hairColourFine != True:
         hairColour = input("What is your hair colour?  ").lower()
@@ -159,3 +165,20 @@ def loadProfile():
         global profiles
         profiles=[]
         saveProfile()
+
+def deleteProfile():
+    try:
+        with open("profiles.txt",mode="r") as p:
+            profiles = json.load(p)
+            print(profiles)
+            delFileName = input("What name does the profile which you wish to delete have?   ")
+            for each in range(len(profiles)):
+                if profiles[each][0] == delFileName:
+                    profiles[each] = []
+                    print("Deleted")
+                else:
+                    print("File not found.")
+    except IOError:
+        print("profiles.txt not found.")
+    except IOError:
+        print("profiles.txt not found.")
