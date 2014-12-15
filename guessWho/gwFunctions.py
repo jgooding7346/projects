@@ -1,5 +1,6 @@
-import picamera,time,json
+import picamera,time,json #MODULES: picamera, time, json
 
+#PICTURE
 def getPicture(filename=""):
     picFine = True
     while picFine == True:
@@ -147,10 +148,12 @@ def saveProfile():
     profiles.append(profile)
     with open("profiles.txt",mode="w") as p:
         json.dump(profiles,p)
+
 def loadProfile():
     try:
         with open("profiles.txt",mode="r") as p:
             profiles = json.load(p)
+            print(profiles)
     except IOError:
         print("profiles.txt not found. Creating a new profile")
         global profiles
