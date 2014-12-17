@@ -6,7 +6,7 @@ def getPicture(filename=""):
     while picFine == True:
         if filename == "":
             picFine = True
-            filename = input("Please give a valid filename").lower()
+            filename = input("Please give your name again.   ").lower()
         else: 
             picFine = False
     while picFine != True:
@@ -18,11 +18,6 @@ def getPicture(filename=""):
                 camera.stop_preview()
                 fileName = filename+".jpg"
                 print('Captured {0}{1}'.format(filename,".jpg"))
-            picFineInput = input("Is this ok? ").lower()
-            if picFineInput == "yes" or picFineInput == "y":
-                picFine = True
-            elif picFineInput == "no" and picFineInput == "n":
-                picFine = False
         
         except picamera.exc.PiCameraError:
             print("There is a problem with the camera, please check it is connected")
@@ -49,12 +44,18 @@ def getCharProfile():
 
     #PICTURE
     getPicture(name)
+    picFine = False
     while picFine != True:
+        picFineInput = input("Is this ok? ").lower()
         if picFineInput == "yes" or picFineInput == "y":
             picFine = True
-        elif picFineInput == "no" or picFineInput == "n":
+        elif picFineInput == "no" and picFineInput == "n":
             picFine = False
-            
+            getPicture()
+        else:
+            picFine = False
+            getPicture()
+                
     #HAIR COLOUR
     while hairColourFine != True:
         hairColour = input("What is your hair colour?  ").lower()
@@ -162,8 +163,8 @@ def loadProfile():
             print(profiles)
     except IOError:
         print("profiles.txt not found. Creating a new profile")
-        global profiles
         profiles=[]
+        global profiles
         saveProfile()
 
 def deleteProfile():

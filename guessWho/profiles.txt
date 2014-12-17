@@ -1,1 +1,1 @@
-[["gertrude", "red", true, "brown", "female", false, false, "gertrude.jpg"]]
+[["gertrude", "red", true, "brown", "female", false, false, "gertrude.jpg"], ["jamie", "ginger", false, "brown", "male", false, false, "jamie.jpg"]]
