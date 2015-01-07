@@ -1,5 +1,5 @@
 #!/bin/sh
-backup_dir="/home/pi/treeLights/"
+backup_dir="/home/pi/"
 
 if [ -z "$1" ]
 	then

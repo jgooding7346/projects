@@ -1,6 +1,6 @@
 #!/bin/sh
 
-backup_dir="/home/pi/treeLights/"
+backup_dir="/home/pi/Projects/"
 
 if [ -z "$1" ]
 	then
