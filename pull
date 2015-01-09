@@ -1,5 +1,0 @@
-#!/bin/sh
-backup_dir="/home/pi/projects/"
-
-cd $backup_dir
-git pull

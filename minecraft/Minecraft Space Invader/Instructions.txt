@@ -1,9 +1,0 @@
-Minecraft Space Invader Hunt - James Gooding - 2014
-
-1. Load a Minecraft world. Ideally create a new one as severe damage may be dealt to your world.
-2. Open the program in Python 2 IDLE (Python 3 is incompatible with McPi)
-3. Press run
-
-  i. Go to the coordinate shown in chat.
-  ii. You will have 60 seconds.
-  iii. When at the Space Invader stand directly next to the very centre of this (block placing may be required).
