@@ -1,103 +1,154 @@
-Xsession: X session started for pi at Tue Jan  6 16:05:14 UTC 2015
+Xsession: X session started for pi at Thu Jan  8 08:46:58 UTC 2015
 localuser:pi being added to access control list
 Obt-Message: Xinerama extension is not present on the server
 Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
 ** Message: x-terminal-emulator has very limited support, consider choose another terminal
+
+** (pcmanfm:2399): WARNING **: The directory '~/Templates' doesn't exist, ignoring it
 ** Message: x-terminal-emulator has very limited support, consider choose another terminal
 
-** (pcmanfm:2516): WARNING **: The directory '~/Templates' doesn't exist, ignoring it
+** (lxpanel:2398): WARNING **: The directory '~/Templates' doesn't exist, ignoring it
 
-** (lxpanel:2515): WARNING **: The directory '~/Templates' doesn't exist, ignoring it
+(lxpanel:2398): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-can-change-accels after class was initialised
 
-(lxpanel:2515): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-can-change-accels after class was initialised
+(lxpanel:2398): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popup-delay after class was initialised
 
-(lxpanel:2515): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popup-delay after class was initialised
+(lxpanel:2398): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popdown-delay after class was initialised
 
-(lxpanel:2515): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popdown-delay after class was initialised
+(lxpanel:2398): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-images after class was initialised
 
-(lxpanel:2515): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-images after class was initialised
+(lxpanel:2398): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-label-select-on-focus after class was initialised
 
-(lxpanel:2515): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-label-select-on-focus after class was initialised
+(lxpanel:2398): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-button-images after class was initialised
 
-(lxpanel:2515): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-button-images after class was initialised
+(pcmanfm:2399): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-label-select-on-focus after class was initialised
 
-(pcmanfm:2516): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-label-select-on-focus after class was initialised
+(pcmanfm:2399): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-can-change-accels after class was initialised
 
-(pcmanfm:2516): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-can-change-accels after class was initialised
+(pcmanfm:2399): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popup-delay after class was initialised
 
-(pcmanfm:2516): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popup-delay after class was initialised
+(pcmanfm:2399): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popdown-delay after class was initialised
 
-(pcmanfm:2516): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popdown-delay after class was initialised
+(pcmanfm:2399): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-images after class was initialised
 
-(pcmanfm:2516): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-images after class was initialised
+(lxterminal:2445): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-bar-popup-delay after class was initialised
 
-(lxterminal:2616): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-bar-popup-delay after class was initialised
+(lxterminal:2445): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-can-change-accels after class was initialised
 
-(lxterminal:2616): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-can-change-accels after class was initialised
+(lxterminal:2445): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popup-delay after class was initialised
 
-(lxterminal:2616): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popup-delay after class was initialised
+(lxterminal:2445): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popdown-delay after class was initialised
 
-(lxterminal:2616): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popdown-delay after class was initialised
+(lxterminal:2445): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-label-select-on-focus after class was initialised
 
-(lxterminal:2616): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-label-select-on-focus after class was initialised
+(lxterminal:2445): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-images after class was initialised
 
-(lxterminal:2616): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-images after class was initialised
+(lxterminal:2445): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-button-images after class was initialised
 
-(lxterminal:2616): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-button-images after class was initialised
+(pcmanfm:2399): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-bar-popup-delay after class was initialised
 
-(pcmanfm:2516): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-bar-popup-delay after class was initialised
+(pcmanfm:2399): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-button-images after class was initialised
 
-(pcmanfm:2516): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-button-images after class was initialised
+(pcmanfm:2399): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-entry-select-on-focus after class was initialised
 
-(pcmanfm:2516): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-entry-select-on-focus after class was initialised
+(pcmanfm:2399): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-entry-password-hint-timeout after class was initialised
 
-(pcmanfm:2516): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-entry-password-hint-timeout after class was initialised
+(pcmanfm:2399): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-scrolled-window-placement after class was initialised
 
-(pcmanfm:2516): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-scrolled-window-placement after class was initialised
+(pcmanfm:2399): Gtk-WARNING **: Radio group does not contain an action with value '0'
 
-(pcmanfm:2516): Gtk-WARNING **: Radio group does not contain an action with value '0'
+(pcmanfm:2399): Gtk-WARNING **: Radio group does not contain an action with value '0'
 
-(pcmanfm:2516): Gtk-WARNING **: Radio group does not contain an action with value '0'
+(pcmanfm:2399): Gtk-WARNING **: Radio group does not contain an action with value '0'
 
-(pcmanfm:2516): Gtk-WARNING **: Radio group does not contain an action with value '0'
+(pcmanfm:2399): Gtk-WARNING **: Radio group does not contain an action with value '0'
 
-(openbox:2513): GLib-CRITICAL **: Source ID 6 was not found when attempting to remove it
+(pcmanfm:2399): Gtk-WARNING **: Radio group does not contain an action with value '0'
 
-(leafpad:3001): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-bar-popup-delay after class was initialised
+(pcmanfm:2399): Gtk-WARNING **: Radio group does not contain an action with value '0'
+cat: /proc/0/cmdline: No such file or directory
 
-(leafpad:3001): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-label-select-on-focus after class was initialised
+** (lxpanel:2398): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+cat: /proc/0/cmdline: No such file or directory
 
-(leafpad:3001): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-can-change-accels after class was initialised
+** (lxpanel:2398): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
 
-(leafpad:3001): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popup-delay after class was initialised
+(openbox:2396): GLib-CRITICAL **: Source ID 8 was not found when attempting to remove it
 
-(leafpad:3001): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popdown-delay after class was initialised
+(pcmanfm:2399): GLib-CRITICAL **: Source ID 2231 was not found when attempting to remove it
 
-(leafpad:3001): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-images after class was initialised
+(pcmanfm:2399): GLib-CRITICAL **: Source ID 2329 was not found when attempting to remove it
 
-(leafpad:3001): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-scrolled-window-placement after class was initialised
+(pcmanfm:2399): GLib-CRITICAL **: Source ID 2349 was not found when attempting to remove it
 
-(leafpad:3001): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-button-images after class was initialised
+(pcmanfm:2399): GLib-CRITICAL **: Source ID 2540 was not found when attempting to remove it
+cat: /proc/0/cmdline: No such file or directory
 
-(leafpad:3001): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-entry-select-on-focus after class was initialised
+** (lxpanel:2398): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
 
-(leafpad:3001): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-entry-password-hint-timeout after class was initialised
+(openbox:2396): GLib-CRITICAL **: Source ID 9 was not found when attempting to remove it
+cat: /proc/0/cmdline: No such file or directory
 
-(pcmanfm:2516): Gtk-WARNING **: Radio group does not contain an action with value '0'
+** (lxpanel:2398): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+cat: /proc/0/cmdline: No such file or directory
 
-(pcmanfm:2516): Gtk-WARNING **: Radio group does not contain an action with value '0'
+** (lxpanel:2398): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
+cat: /proc/0/cmdline: No such file or directory
 
-(pcmanfm:2516): Gtk-WARNING **: Radio group does not contain an action with value '0'
+** (lxpanel:2398): WARNING **: ltbp: fgets 'cat /proc/0/cmdline'
 
-(pcmanfm:2516): Gtk-WARNING **: Radio group does not contain an action with value '0'
+(openbox:2396): GLib-CRITICAL **: Source ID 11 was not found when attempting to remove it
+
+(openbox:2396): GLib-CRITICAL **: Source ID 12 was not found when attempting to remove it
+
+(openbox:2396): GLib-CRITICAL **: Source ID 13 was not found when attempting to remove it
+
+(openbox:2396): GLib-CRITICAL **: Source ID 14 was not found when attempting to remove it
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/lib/python3.2/tkinter/__init__.py", line 1426, in __call__
+    return self.func(*args)
+  File "/usr/lib/python3.2/tkinter/__init__.py", line 490, in callit
+    func(*args)
+  File "/usr/lib/python3.2/idlelib/ColorDelegator.py", line 153, in recolorize
+    self.recolorize_main()
+  File "/usr/lib/python3.2/idlelib/PyShell.py", line 301, in recolorize_main
+    ColorDelegator.recolorize_main(self)
+  File "/usr/lib/python3.2/idlelib/ColorDelegator.py", line 186, in recolorize_main
+    next = self.index(mark + "+%d lines linestart" %
+  File "/usr/lib/python3.2/idlelib/Delegator.py", line 10, in __getattr__
+    attr = getattr(self.delegate, name) # May raise AttributeError
+AttributeError: 'NoneType' object has no attribute 'index'
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/lib/python3.2/tkinter/__init__.py", line 1426, in __call__
+    return self.func(*args)
+  File "/usr/lib/python3.2/idlelib/MultiCall.py", line 166, in handler
+    r = l[i](event)
+  File "/usr/lib/python3.2/idlelib/ScriptBinding.py", line 128, in run_module_event
+    return self._run_module_event(event)
+  File "/usr/lib/python3.2/idlelib/ScriptBinding.py", line 149, in _run_module_event
+    interp.restart_subprocess(with_cwd=False)
+  File "/usr/lib/python3.2/idlelib/PyShell.py", line 458, in restart_subprocess
+    console.write(halfbar + ' RESTART ' + halfbar)
+  File "/usr/lib/python3.2/idlelib/PyShell.py", line 1233, in write
+    self.text.mark_gravity("iomark", "left")
+AttributeError: 'NoneType' object has no attribute 'mark_gravity'
+
+(lxterminal:2644): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-bar-popup-delay after class was initialised
+
+(lxterminal:2644): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-can-change-accels after class was initialised
+
+(lxterminal:2644): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popup-delay after class was initialised
+
+(lxterminal:2644): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popdown-delay after class was initialised
+
+(lxterminal:2644): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-label-select-on-focus after class was initialised
+
+(lxterminal:2644): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-images after class was initialised
+
+(lxterminal:2644): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-button-images after class was initialised
 XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
-      after 19061 requests (19061 known processed) with 0 events remaining.
-
-(leafpad:3001): GVFS-RemoteVolumeMonitor-WARNING **: Owner :1.6 of volume monitor org.gtk.Private.GduVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
-
-(leafpad:3001): GVFS-RemoteVolumeMonitor-WARNING **: Owner :1.7 of volume monitor org.gtk.Private.AfcVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
-
-(leafpad:3001): GVFS-RemoteVolumeMonitor-WARNING **: Owner :1.8 of volume monitor org.gtk.Private.GPhoto2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+      after 39834 requests (39834 known processed) with 0 events remaining.
 lxpolkit: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
-wpa_gui: Fatal IO error: client killed
-lxterminal: Fatal IO error 0 (Success) on X server :0.0.
+lxterminal: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.0.

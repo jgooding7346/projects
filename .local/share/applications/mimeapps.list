@@ -2,3 +2,4 @@
 inode/directory=pcmanfm.desktop
 
 [Added Associations]
+text/x-python=idle3.desktop;idle.desktop;

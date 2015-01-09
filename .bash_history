@@ -64,3 +64,50 @@ cd ~/
 git pull https://github.com/jgooding7346/projects
 halt
 sudo halt
+ip addr
+ls
+mkdir testDir
+ls
+./push
+./pull
+git pull https://github.com/jgooding7346/projects
+git push -u origin master
+nano push
+./push
+git add /home/pi/
+git push
+sudo apt-get install tightvncserver
+tightvncserver
+vnc server :0 -geometry 1920x1080 -depth 24
+vncserver :0 -geometry 1920x1080 -depth 24
+nano vnc.sh
+chmod +x vnc.sh
+./vnc.sh
+sudo su
+ip addr
+./push
+git push /home/pi/
+ls
+cd testDir
+nano test.txt
+./push
+ls
+cd ~/
+ls
+./push
+nano push
+nano pull
+./pull
+nano pull
+./pull
+nano push
+nano halt_push 
+./push
+sudo halt
+ip addr
+ifconfig 
+ip addr
+halt
+sudo halt 
+ping google.com
+ip addr
