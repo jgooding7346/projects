@@ -4,7 +4,6 @@ from PyQt4 import QtGui #imports
 with open("profiles.txt",mode="r") as p:
             profiles = json.load(p)
 
-
 class Example(QtGui.QWidget):
     def __init__(self):
         super(Example, self).__init__()
