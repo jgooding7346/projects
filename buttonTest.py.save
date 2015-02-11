@@ -29,12 +29,7 @@ def buttonCount():
 	else:
 		mode = "casual"
 	print(mode, "mode selected")
-	if mode == "easy":
-		print("You have 10 seconds to press the button over 50 times!")
-	if mode == "easy":
-                print("You have 10 seconds to press the button over 75 times!")
-	if mode == "easy":
-                print("You have 10 seconds to press the button over 100 times!")
+	print("You have 10 seconds to press the button over 75 times!")
 	time.sleep(1)
 	print("3")
 	time.sleep(1)
@@ -58,8 +53,8 @@ def buttonCount():
 			print("You lost with ", count, " points!")
 	else:
 		while True:
-			if GPIO.input(pin) != True:
-				count += 1
+			
 			time.sleep(0.05)
 			print(count, " points!")
+			
 buttonCount()
