@@ -16,9 +16,9 @@ def bucketTipped(channel):
 	rainCount += 1
 	print(rainCount)
 
-def spin(channel)
+def spin(channel):
 	global windCount
-	count += 1
+	windCount += 1
 
 def calcSpeed():
 	speedCMpS = ((9 * math.pi) * windCount) / 5
@@ -34,12 +34,12 @@ GPIO.add_event_detect(windPin, GPIO.FALLING, callback=spin, bouncetime=300)
 
 while True:
 	windCount = 0
-	time.sleep(1)
-	print(rainCount * 0.2794)
+	rainCount = 0
+	time.sleep(5)
+	print("Rain Fall: " , rainCount * 0.2794)
 	speedKMpH = calcSpeed()
-	print(speedKMpH)
-	print(windCount)
-	time.sleep(4)
+	print("Wind Speed: " , speedKMpH)
+		
 
 input("Press enter to exit...")
 
